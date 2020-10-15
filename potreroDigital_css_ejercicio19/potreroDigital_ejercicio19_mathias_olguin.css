@@ -1,0 +1,47 @@
+h1{
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: grey;
+}
+#italica{
+  font-style: italic;
+}
+#equipo{
+  font-size: 12px;
+}
+#regular{
+  font-style: normal;
+}
+*{
+  display: flex;
+  padding: 4px;
+  background-color: #eff5f5
+
+
+}
+.caja1{
+  flex-wrap: wrap;
+
+}
+.caja2{
+  flex-wrap: wrap;
+  align-content: center;
+  width: 50%;
+  height: 80%;
+
+
+}
+.caja3{
+  flex-wrap: nowrap;
+  align-content: center;
+
+
+
+}
+.caja4{
+  flex-direction: column;
+  align-content: flex-end;
